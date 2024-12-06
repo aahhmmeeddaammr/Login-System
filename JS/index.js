@@ -76,7 +76,7 @@ const Login = async (payload) => {
     var data = data.MSG;
     localStorage.setItem("user", JSON.stringify(data));
     SubmitBtn.removeAttribute("disabled");
-    window.location.href = "Home.html"
+    window.location.href = "/Login-System/Home.html"
     SubmitBtn.innerHTML = `Log in`;
   }
 }
