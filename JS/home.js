@@ -9,5 +9,5 @@ nameDiv.innerHTML = `<h1>${user.name}</h1>`;
 roleDiv.innerHTML = `<h1>${user.role}</h1>`
 LogoutBtn.addEventListener("click" , function(){
     localStorage.removeItem("user");
-    window.location.href = "/index.html"
+    window.location.href = "index.html"
 })
