@@ -85,7 +85,7 @@ const SignUp = async (payload)=>{
     var data = await res.json();
     var status = data.status ;
     if(status == 201){
-        window.location.href = "index.html" 
+        window.location.href = "/Login-System/index.html" 
     }
     console.log(data);
 }
